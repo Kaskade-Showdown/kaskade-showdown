@@ -6752,13 +6752,13 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 			"Castform-Whirly",
 		],
 	},
-	castformsunny: {
+	castformsunny: { // updated
 		num: 351,
 		name: "Castform-Sunny",
 		baseSpecies: "Castform",
 		forme: "Sunny",
 		types: ["Fire"],
-		baseStats: { hp: 70, atk: 70, def: 70, spa: 70, spd: 70, spe: 70 },
+		baseStats: { hp: 90, atk: 85, def: 85, spa: 85, spd: 85, spe: 85 },
 		abilities: { 0: "Forecast" },
 		heightm: 0.3,
 		weightkg: 0.8,
@@ -6767,13 +6767,13 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		requiredAbility: "Forecast",
 		battleOnly: "Castform",
 	},
-	castformrainy: {
+	castformrainy: { // updated
 		num: 351,
 		name: "Castform-Rainy",
 		baseSpecies: "Castform",
 		forme: "Rainy",
 		types: ["Water"],
-		baseStats: { hp: 70, atk: 70, def: 70, spa: 70, spd: 70, spe: 70 },
+		baseStats: { hp: 90, atk: 85, def: 85, spa: 85, spd: 85, spe: 85 },
 		abilities: { 0: "Forecast" },
 		heightm: 0.3,
 		weightkg: 0.8,
@@ -6782,13 +6782,13 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		requiredAbility: "Forecast",
 		battleOnly: "Castform",
 	},
-	castformsnowy: {
+	castformsnowy: { // updated
 		num: 351,
 		name: "Castform-Snowy",
 		baseSpecies: "Castform",
 		forme: "Snowy",
 		types: ["Ice"],
-		baseStats: { hp: 70, atk: 70, def: 70, spa: 70, spd: 70, spe: 70 },
+		baseStats: { hp: 90, atk: 85, def: 85, spa: 85, spd: 85, spe: 85 },
 		abilities: { 0: "Forecast" },
 		heightm: 0.3,
 		weightkg: 0.8,
