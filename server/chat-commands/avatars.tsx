@@ -687,6 +687,9 @@ const OFFICIAL_SWSE_AVATARS = new Set([
 const OFFICIAL_AVATARS_MYSTE = new Set([
 	'tofrug-stack',
 ]);
+const OFFICIAL_AVATARS_SYMPOLE = new Set([
+	'lilly-swse'
+]);
 
 for (const avatar of OFFICIAL_AVATARS_BELIOT419) OFFICIAL_AVATARS.add(avatar);
 for (const avatar of OFFICIAL_AVATARS_GNOMOWLADNY) OFFICIAL_AVATARS.add(avatar);
@@ -703,6 +706,7 @@ for (const avatar of OFFICIAL_AVATARS_FLAMIBANE) OFFICIAL_AVATARS.add(avatar);
 for (const avatar of OFFICIAL_AVATARS_RADU) OFFICIAL_AVATARS.add(avatar);
 for (const avatar of OFFICIAL_SWSE_AVATARS) OFFICIAL_AVATARS.add(avatar);
 for (const avatar of OFFICIAL_AVATARS_MYSTE) OFFICIAL_AVATARS.add(avatar);
+for (const avatar of OFFICIAL_AVATARS_SYMPOLE) OFFICIAL_AVATARS.add(avatar);
 
 export const commands: Chat.ChatCommands = {
 	avatar(target, room, user) {
@@ -768,6 +772,9 @@ export const commands: Chat.ChatCommands = {
 			}
 			if (OFFICIAL_AVATARS_MYSTE.has(avatar)) {
 				this.sendReply(`|raw|(${this.tr`Artist: `}Myste)`);
+			}
+			if (OFFICIAL_AVATARS_SYMPOLE.has(avatar)) {
+				this.sendReply(`|raw|(${this.tr`Artist: `}Sympole)`);
 			}
 		}
 	},
