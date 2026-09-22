@@ -1767,7 +1767,8 @@ export class BattleActions {
 			const bondModifier = this.battle.gen > 6 ? 0.25 : 0.5;
 			this.battle.debug(`Parental Bond modifier: ${bondModifier}`);
 			baseDamage = this.battle.modify(baseDamage, bondModifier);
-		} else if (move.multihitType === 'echolocation' && move.hit > 1) {
+		}
+		if (move.multihitType === 'echolocation' && move.hit > 1) {
 			// Echolocation modifier
 			this.battle.debug(`Echolocation modifier: 0.25`);
 			baseDamage = this.battle.modify(baseDamage, 0.25);
