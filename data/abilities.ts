@@ -6553,7 +6553,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	flytrap: { // tested, works as intended
 		onTryHit(target, source, move) {
-			if (target !== source && move.type === 'Flytrap') {
+			if (target !== source && move.type === 'Bug') {
 				this.add('-immune', target, '[from] ability: Flytrap');
 				return null;
 			}

@@ -2445,8 +2445,8 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 	},
 	flytrap: {
 		name: "Flytrap",
-		desc: "Prevents opposing Bug-type Pokemon from choosing to switch out, unless they are holding a Shed Shell, have the Ability Run Away, are a Ghost type, or also have this Ability. Halves the speed of opposing Bug-type Pokemon unless they also have this ability.",
-		shortDesc: "Prevents opposing Bug-type Pokemon from choosing to switch out and halves their Speed.",
+		desc: "Prevents opposing Bug-type Pokemon from choosing to switch out, unless they are holding a Shed Shell, have the Ability Run Away, are a Ghost type, or also have this Ability. This Pokemon is immune to Bug-type moves.",
+		shortDesc: "Bug immunity; Prevents opposing Bug-type Pokemon from choosing to switch out.",
 	},
 	foil: {
 		name: "Foil",
