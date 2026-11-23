@@ -4311,18 +4311,15 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "OU",
 	},
 	deino: {
-		isNonstandard: "Future",
-		tier: "Illegal",
+		tier: "LC",
 		natDexTier: "LC",
 	},
 	zweilous: {
-		isNonstandard: "Future",
-		tier: "Illegal",
+		tier: "NFE",
 		natDexTier: "NFE",
 	},
 	hydreigon: {
-		isNonstandard: "Future",
-		tier: "Illegal",
+		tier: "OU",
 		natDexTier: "OU",
 	},
 	larvesta: {
